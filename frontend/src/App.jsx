@@ -9,7 +9,7 @@ const App = () => {
     .then(setItems)
   });
 
-  return <ul>{items.map(item => <li key={item}>{item}</li>)}</ul>
+  return <><h1>Groceries</h1><ul>{items.map(item => <li key={item}>{item}</li>)}</ul></>
 }
 
 export default App
