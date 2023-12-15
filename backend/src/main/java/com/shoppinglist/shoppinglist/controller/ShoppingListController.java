@@ -17,7 +17,9 @@ public class ShoppingListController {
         return List.of(
                 "boter",
                 "kaas",
-                "spek"
+                "spek",
+                "scharreleieren",
+                "sinaasappelsap"
         );
     }
 }
